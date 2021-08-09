@@ -3,6 +3,7 @@
 
 
 环境需要：
+
 pip install opencv-python
 
 pip install numpy
@@ -17,6 +18,7 @@ centerCoordinates:它是椭圆的中心坐标。坐标表示为两个值的元�
 axesLength:它包含两个变量的元组，分别包含椭圆的长轴和短轴(长轴长度，短轴长度)。
 
 angle:椭圆旋转角度，以度为单位。
+
 
 
 1.jpg:fitEllipse.py识别的图片
