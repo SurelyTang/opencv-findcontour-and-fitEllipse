@@ -4,13 +4,18 @@
 
 环境需要：
 pip install opencv-python
+
 pip install numpy
 
 
-fitEllipse.py:主代码 对1.jpg提取轮廓并椭圆拟合操作 输出椭圆方程三个参数如下：
+fitEllipse.py:主代码 
+
+对1.jpg提取轮廓并椭圆拟合操作 输出椭圆方程三个参数如下：
 
 centerCoordinates:它是椭圆的中心坐标。坐标表示为两个值的元组，即(X坐标值，Y坐标值)。
+
 axesLength:它包含两个变量的元组，分别包含椭圆的长轴和短轴(长轴长度，短轴长度)。
+
 angle:椭圆旋转角度，以度为单位。
 
 
